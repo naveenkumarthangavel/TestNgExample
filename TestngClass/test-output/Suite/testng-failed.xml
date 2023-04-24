@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="pass" value="naveen@12569"/>
+  <parameter name="name" value="naveen"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.code.Priority">
+        <methods>
+          <include name="tc1"/>
+          <include name="endBrowser"/>
+          <include name="endTime"/>
+          <include name="stBrowser"/>
+          <include name="stTime"/>
+        </methods>
+      </class> <!-- org.code.Priority -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
